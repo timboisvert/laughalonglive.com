@@ -39,7 +39,7 @@ export function ShowCard({ show }: ShowCardProps) {
           {show.showings.map((showing, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center bg-white text-black p-6 rounded-lg shadow-md w-full sm:w-auto max-w-md lg:max-w-lg" // Added lg:max-w-lg
+              className="flex flex-col items-center text-center bg-white text-black p-6 rounded-lg shadow-md w-full sm:w-auto max-w-lg lg:max-w-xl" // Changed max-w-md to max-w-lg and added lg:max-w-xl
             >
               <p className="text-xl font-semibold mb-1">{showing.date}</p>
               <p className="text-lg mb-1">Doors at 11:45 PM</p>

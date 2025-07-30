@@ -33,6 +33,11 @@ export const shows: Show[] = [
     convenienceDate: "August 15 & 16, 2025", // Added convenienceDate
     comedians: [
       {
+        name: "Renny Blackett",
+        imageSrc: "/images/comedians/renny.jpg",
+        instagramHandle: "justrantingtheblues",
+      },
+      {
         name: "Trevor D. Kelley",
         imageSrc: "/images/comedians/trevor.png",
         instagramHandle: "trevorkelleycomedy",
@@ -41,11 +46,6 @@ export const shows: Show[] = [
         name: "Daryn Robinson",
         imageSrc: "/images/comedians/daryn.jpg",
         instagramHandle: "daryn_2dream",
-      },
-      {
-        name: "JP Winders",
-        imageSrc: "/images/comedians/jp.jpg",
-        instagramHandle: "jpwinders",
       },
       {
         name: "Andie Wonnacott",

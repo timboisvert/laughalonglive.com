@@ -24,7 +24,7 @@ export function Header() {
         {"Stars & Garters at 3914 N. Clark St in Chicago"}
       </p>
       <a
-        href="https://www.tickettailor.com/events/laughalonglive"
+        href="https://www.tickettailor.com/events/laughalonglive?ref=website"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block px-8 py-3 text-lg font-semibold text-black rounded-lg shadow-lg transition-transform transform hover:scale-105"

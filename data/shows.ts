@@ -4,8 +4,8 @@ export const shows: Show[] = [
   {
     id: "pride-and-prejudice-aug-2025",
     showings: [
-      { date: "August 15, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1769488" },
-      { date: "August 16, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1769488" },
+      { date: "August 15, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1769488?ref=website" },
+      { date: "August 16, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1769488?ref=website" },
     ],
     movie: "Pride and Prejudice",
     posterSrc: "/images/lal-pride-and-prejudice-poster.png",
@@ -54,4 +54,38 @@ export const shows: Show[] = [
       },
     ],
   },
+  {
+    id: "the-karate-kid-sept-2025",
+    showings: [
+      { date: "September 19, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1781109?ref=website" },
+      { date: "September 20, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1781109?ref=website" },
+    ],
+    movie: "The Karate Kid",
+    posterSrc: "/images/lal-the-karate-kid-poster.jpg",
+    description: `Text TODO
+    <br />
+    <br />
+    Doors 11:45pm. Show at Midnight.
+    <br />
+    Stars and Garters (a 21+ club)
+    <br />
+    3914 N Clark St, Chicago, IL
+    <br />
+    <br />
+    Text TODO
+    </div>`,
+    convenienceDate: "September 19 & 20, 2025", // Added convenienceDate
+    comedians: [
+      {
+        name: "Trevor D. Kelley",
+        imageSrc: "/images/comedians/trevor.png",
+        instagramHandle: "trevorkelleycomedy",
+      },
+      {
+        name: "Andie Wonnacott",
+        imageSrc: "/images/comedians/andie.jpg",
+        instagramHandle: "andiewonna",
+      },
+    ],
+  }
 ]

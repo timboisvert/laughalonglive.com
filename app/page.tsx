@@ -27,7 +27,7 @@ export default function Home() {
                   objectFit="cover"
                 />
               </div>
-              <p className="mt-4 text-2xl font-medium text-black group-hover:text-gray-700 transition-colors">
+              <p className="mt-4 text-2xl font-bold text-black group-hover:text-gray-700 transition-colors">
                 {show.movie}
               </p>
               <p className="text-lg text-black group-hover:text-gray-700 transition-colors">{show.convenienceDate}</p>

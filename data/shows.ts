@@ -62,17 +62,12 @@ export const shows: Show[] = [
     ],
     movie: "The Karate Kid",
     posterSrc: "/images/lal-the-karate-kid-poster.jpg",
-    description: `Text TODO
-    <br />
-    <br />
+    description: `
     Doors 11:45pm. Show at Midnight.
     <br />
     Stars and Garters (a 21+ club)
     <br />
     3914 N Clark St, Chicago, IL
-    <br />
-    <br />
-    Text TODO
     </div>`,
     convenienceDate: "September 19 & 20, 2025", // Added convenienceDate
     comedians: [

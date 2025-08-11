@@ -20,7 +20,7 @@ export function Footer() {
       <div className="relative w-52 h-52 sm:w-64 sm:h-64">
         <a href="https://www.cocorunseverything.com" target="_blank" rel="noopener noreferrer">
           <Image
-            src="/images/coco-runs-everything-logo.png"
+            src="/images/coco-runs-everything-production-logo.png"
             alt="Coco Runs Everything Logo"
             layout="fill"
             objectFit="contain"

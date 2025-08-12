@@ -30,7 +30,7 @@ export const shows: Show[] = [
     <br />
     Hate having fun? Go to bed! Respectfully, you're not invited.
     </div>`,
-    convenienceDate: "August 15 & 16, 2025", // Added convenienceDate
+    convenienceDate: "Two showings: August 15 & 16, 2025", // Added convenienceDate
     comedians: [
       {
         name: "Renny Blackett",
@@ -69,7 +69,7 @@ export const shows: Show[] = [
     <br />
     3914 N Clark St, Chicago, IL
     </div>`,
-    convenienceDate: "September 19 & 20, 2025", // Added convenienceDate
+    convenienceDate: "Two showings: September 19 & 20, 2025", // Added convenienceDate
     comedians: [
       {
         name: "Trevor D. Kelley",

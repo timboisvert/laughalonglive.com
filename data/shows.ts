@@ -2,6 +2,37 @@ import type { Show } from "@/types/show"
 
 export const shows: Show[] = [
   {
+    id: "the-karate-kid-sept-2025",
+    showings: [
+      { date: "September 19, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1781109?ref=website" },
+      { date: "September 20, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1781109?ref=website" },
+    ],
+    movie: "The Karate Kid",
+    posterSrc: "/images/lal-the-karate-kid-poster.jpg",
+    description: `
+    Doors 11:45pm. Show at Midnight.
+    <br />
+    Stars and Garters (a 21+ club)
+    <br />
+    3914 N Clark St, Chicago, IL
+    </div>`,
+    convenienceDate: "Two showings: September 19 & 20, 2025", // Added convenienceDate
+    comedians: [
+      {
+        name: "Trevor D. Kelley",
+        imageSrc: "/images/comedians/trevor.png",
+        instagramHandle: "trevorkelleycomedy",
+      },
+      {
+        name: "Andie Wonnacott",
+        imageSrc: "/images/comedians/andie.jpg",
+        instagramHandle: "andiewonna",
+      },
+    ],
+  }
+]
+export const pastshows: Show[] = [
+  {
     id: "pride-and-prejudice-aug-2025",
     showings: [
       { date: "August 15, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1769488?ref=website" },
@@ -46,35 +77,6 @@ export const shows: Show[] = [
         name: "Daryn Robinson",
         imageSrc: "/images/comedians/daryn.jpg",
         instagramHandle: "daryn_2dream",
-      },
-      {
-        name: "Andie Wonnacott",
-        imageSrc: "/images/comedians/andie.jpg",
-        instagramHandle: "andiewonna",
-      },
-    ],
-  },
-  {
-    id: "the-karate-kid-sept-2025",
-    showings: [
-      { date: "September 19, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1781109?ref=website" },
-      { date: "September 20, 2025", ticketLink: "https://www.tickettailor.com/events/laughalonglive/1781109?ref=website" },
-    ],
-    movie: "The Karate Kid",
-    posterSrc: "/images/lal-the-karate-kid-poster.jpg",
-    description: `
-    Doors 11:45pm. Show at Midnight.
-    <br />
-    Stars and Garters (a 21+ club)
-    <br />
-    3914 N Clark St, Chicago, IL
-    </div>`,
-    convenienceDate: "Two showings: September 19 & 20, 2025", // Added convenienceDate
-    comedians: [
-      {
-        name: "Trevor D. Kelley",
-        imageSrc: "/images/comedians/trevor.png",
-        instagramHandle: "trevorkelleycomedy",
       },
       {
         name: "Andie Wonnacott",
